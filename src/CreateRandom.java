@@ -3,12 +3,12 @@ import java.util.*;
 
 public class CreateRandom {
 
-	//Picks random number between x integers
+	// Picks random number between x integers
 	public int RandomParam(int... peersx) {
 
 		ArrayList<Integer> intList = new ArrayList<Integer>(0);
 
-		for(int x : peersx) {
+		for (int x : peersx) {
 			intList.add(x);
 		}
 
@@ -19,7 +19,6 @@ public class CreateRandom {
 		return randomElement;
 
 	}
-
 
 	public int RandomList(List<Integer> PassList) {
 
